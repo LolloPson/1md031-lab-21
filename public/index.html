@@ -1,1 +1,128 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Hamburgerplace</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="path/to/style-document.css">
+</head>
+
+</html>
+
+<body style="background-color:powderblue;">
+<header>
+<h1>Välkommen till Hamburgerplace</h1>
+
+</header>
+<br />
+
+<main>
+<section>
+
+
+<h2>Välj din burgare här</h2>
+<p>Här finns alla våra burgaralternativ. Välj och vraka!</p>
+
+<div style="float:left">
+<h3>Elitburgaren</h3>
+<img src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_101408/cf_259/hamburgare.jpg" title="Elitburgaren" style="width: 300px;height:300px">
+<h4>Ingredienser</h4>
+    <ul>
+        <li>Tomat</li>
+        <li>Lök</li>
+        <li>Laktos</li>
+        <li>Gluten</li>
+        <li>Kött</li>
+    </ul>
+    </div>
+
+<div style="float:left;margin-left:50px">
+    <h3>Barnburgaren</h3>
+    <img src="https://www.vegomagasinet.se/wp-content/uploads/2019/01/Veggieburger_barn_.jpg" title="Barnburgaren" s style="width: 300px;height: 300px" ;>
+
+<h4>Ingredienser</h4>
+    <ul>
+        <li>Laktos</li>
+        <li>Gluten</li>
+        <li>Kött</li>
+    </ul>
+</div>
+
+    <div style="float:left;margin-left:50px">
+        <h3>BBQ Beast</h3>
+        <img src="https://img.koket.se/standard-mega/bbq-burgare-pa-flaskkarre-med-het-rodkalssallad.png" title="BBQ Beast" style="width: 300px;height:300px";>
+
+        <h4>Ingredienser</h4>
+        <ul>
+            <li>Laktos</li>
+            <li>Gluten</li>
+            <li>Kött</li>
+            <li>Lök</li>
+        </ul>
+    </div>
+
+
+</section>
+    <br />
+<br />
+
+<section style="clear:left">
+<h4>Kundinformation</h4>
+<p>Var god fyll i kontaktuppgifter samt leveransinformation</p>
+
+        <section id="contact">
+            <form>
+                <p>
+                    <label for="name">Namn</label><br>
+                    <input type="text" id="name" name="n" required="required" placeholder="Namn">
+                </p>
+                <p>
+                    <label for="email">Epostadress</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="gata">Gata</label><br>
+                    <input type="text" id="gata" name="g" required="required" placeholder="Gata">
+                </p>
+                <p>
+                    <label for="husnummer">Husnummer</label><br>
+                    <input type="number" id="husnummer" name="hn" required="required" placeholder="Husnummer" min="1" max="5000">
+                </p>
+            </form>
+            <p>
+                <label for="betalmetod">Betalmetod</label><br>
+                <select id="betalmetod" name="btm">
+                    <option>Kontokort</option>
+                    <option>Faktura</option>
+                    <option>Delbetalning</option>
+                    <option>Swish</option>
+                    <option>Klarna</option>
+                </select>
+            </p>
+            <form>
+                <h4>Könstillhörighet</h4>
+            <p>
+                <label for = "kvinna">Kvinna</label><br>
+               <input type="radio" id="kvinna" name="k" required="required" placeholder="kvinna">
+            </p>
+                <p>
+                    <label for ="man">Man</label><br>
+                    <input type ="radio" id="man" name="k" required="required" placeholder="man">
+                </p>
+                <p>
+                    <label for ="önskar inte uppge">Önskar inte uppge</label><br>
+                    <input type ="radio" id="önskar inte uppge" name="k" required="required" placeholder="önskar inte uppe" checked="checked">
+                </p>
+            </form>
+        </section>
+
+</section>
+    <button type="submit">
+        <img src="data:image/jpeg;base64,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" style="width:15px">
+        Lägg beställning
+    </button>
+</main>
+<hr>
+<footer>
+    &copy;Hamburgerplace Sweden
+</footer>
+</body>
