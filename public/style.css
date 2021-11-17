@@ -1,1 +1,78 @@
-/*empty*/
+/*@import url("reset.css");*/
+
+@import url("https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&display=swap");
+body {
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: #796868;
+    font-size: 14pt;
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 50px;
+    justify-items:center;
+
+}
+.box {
+
+}
+
+.a {
+    grid-column: 1;
+    grid-row:1;
+    ;
+
+}
+.b {
+    grid-column: 2 ;
+    grid-row: 1 ;
+    ;
+}
+.c {
+    grid-column: 3 ;
+    grid-row: 1 ;
+    ;
+}
+
+.ingredient{
+    font-weight: bold;
+}
+
+.button{
+    margin:50px;
+}
+
+#header{
+    margin-left:10px;
+    right:100px;
+    font-size: 24pt;
+}
+
+#burgers {
+
+    margin: 50px;
+    border: 9px outset #5b2341;
+    padding-left: 20px;
+    overflow:hidden ;
+    background-color: #493232;
+    color: #ffeab4;
+}
+#customer {
+    background-color: #3b2736;
+    color: aliceblue;
+    margin: 50px;
+    border: 9px inset #5b2341;
+    padding-left: 20px;
+    font-size: 12pt;
+
+}
+
+input[type="radio"] {
+    height: .9em;
+    width: .9em;
+}
+
+button:hover {
+cursor:pointer;
+}
