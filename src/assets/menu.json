@@ -1,0 +1,24 @@
+[
+  {
+    "name": "The Elite Burger",
+    "calories": 500,
+    "lactose": true,
+    "gluten": true,
+    "url": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_101408/cf_259/hamburgare.jpg"
+  }
+  ,{
+  "name": "The Kids Burger",
+  "calories": 450,
+  "lactose": true,
+  "gluten": true,
+  "url": "https://www.vegomagasinet.se/wp-content/uploads/2019/01/Veggieburger_barn_.jpg"
+
+}
+  ,{
+  "name": "BBQ Beast",
+  "calories": 600,
+  "lactose": true,
+  "gluten": true,
+  "url": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/exps28800_UG143377D12_18_1b_RMS.jpg"
+}
+]
